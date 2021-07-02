@@ -22,6 +22,7 @@ const DynamicPage = ({ sections, metadata, preview, global, pageContext }) => {
     return <div className="container">Loading...</div>;
   }
 
+  console.log("hehe");
   return (
     <Layout global={global} pageContext={pageContext}>
       {/* Add meta tags for SEO*/}
